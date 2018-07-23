@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: white;
+    background-image: url(../img/bg-header.jpg)
+}
+
+
+
+#header {
+    background:url(../img/W6Fuk.png);
+    height:130px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+#header img{
+    margin-top: 20px;
+    margin-left: 18%;
+}
+
+#areaMenu{
+    margin:0 auto;
+    overflow:hidden;
+    padding:0 0 0 29px;
+    width:931px;
+
+
+}
+
+/*menu*/
+*{margin: 0; padding: 0;}
+
+#areaMenu .menu{
+    position: absolute;
+    top: 92px;
+    margin:0 auto;
+    width:931px;
+    list-style:none; 
+    border:1px solid #c0c0c0;
+    background-color: #11141E;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+    color: white;
+
+}
+
+#areaMenu .menu li{
+    position:relative; 
+    float:left; 
+    border-right:1px solid #c0c0c0; 
+}
+
+#areaMenu .menu li a{color:white; text-decoration:none; padding:8px 4px; display:block;}
+
+#areaMenu .menu li a:hover{
+    background:#11141E; 
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+}
+
+#areaMenu .menu li  ul{
+    position:absolute; 
+    top:25px; 
+    left:0;
+    background-color:#11141E; 
+    display:none;
+}
+
+#areaMenu .menu li:hover ul, .menu li.over ul{display:block;}
+
+#areaMenu .menu li ul li{
+    border:1px solid #c0c0c0; 
+    display:block; 
+    width:150px;
+}
+
+/*conteudo*/
+#conteudo{
+    margin:0 auto 97px;
+    min-height:900px;
+    padding:38px 29px 0;
+    width:902px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+    background-color: white;
+}
+
+sub#subDivisao{
+    float: right;
+}
+
+sub#subTitulo{
+    font-size: 100%;
+    font-style: oblique;
+    float: right;
+    margin-right: 90px;
+}
+
+#areaConteudo sub{
+    font-size: 100%;
+}
+
+table#tabelaHorarios{
+    width: 90%;
+    margin-left: 50px;
+}
+table#tabelaListar{
+    width: 90%;
+    margin-left: 50px;
+}
+
+table#tabelaProf{
+    width: 50%;
+    margin-left: 150px;
+}
+
+button#btnConfirmar{
+    width: 100px;
+    float: left;
+}
+
+form{
+    width: 500px;
+    clear: both;
+}
+form input{
+    clear: both;
+
+}
+form select{
+    width:100px;
+    clear: both;
+}
+#utilizador{
+    position: absolute;
+    float: right;
+    margin-top: 22px;
+    margin-left: 70%;
+    color: rosybrown;
+    z-index: 5;
+}
+
+#logout{
+    position: absolute;
+    float: right;
+    margin-top: 16px;
+    margin-left: 81%;
+    color: black;
+    z-index: 5;
+
+}
+
+#logout input{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #555555;
+
+}
+
+#logout input:hover{
+    background-color: #555555;
+    color: white;
+}
+/*------------------------- Footer ------------------------*/
+#footer {
+    padding-top: 50px;
+    background:url(../img/W6Fuk.png);
+    height:130px;
+    color: white;
+    text-align: center;
+
+}
+#footer div {
+    margin:0 auto;
+    padding:0 10px;
+    width:940px;
+}
+
+input[type=checkbox], input[type=radio]{
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+#reserva{
+    position:static;
+    float: right;
+    background-color: pink;
+    width:46%;
+    padding:10px;
+}
+table{
+    width: 100%;
+}
+
+#tabela2{
+    width:50%;
+}
+

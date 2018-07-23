@@ -1,0 +1,52 @@
+*{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 10px 0;
+  line-height: 20px;
+  text-rendering: optimizelegibility;
+  color: #8C454C;
+}
+
+a{
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: #5B4959;
+}
+
+a:hover {
+  color: #1A1214;
+}
+
+table{
+     table-layout: fixed;
+}
+
+table th{
+    width: 30%;
+}
+
+table tr{
+    border-color: black;
+    background-color: lightblue;
+}
+
+.estado2{
+    width: 60px;
+    background-color: red;
+}
+
+.estado1{
+    width: 60px;
+    background-color: yellow;
+}
+
+.estado0{
+    width: 60px;
+    background-color: green;
+}

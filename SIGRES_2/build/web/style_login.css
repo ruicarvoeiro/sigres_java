@@ -1,0 +1,166 @@
+*{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#background-image { 
+  background-image: url("img/background.jpg");
+  left: 0;
+  right: 0;
+  background-size: cover;
+  position: fixed;
+  z-index: 1;
+  height: 160%;
+  animation: animacaoBack 16s linear alternate infinite;
+  filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+  transform: scale(1.01);
+}
+
+@keyframes animacaoBack {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
+#areaLogin {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  position: fixed;
+  z-index: 2;
+  padding: 10px 10px 10px 10px;
+  width: 45%;
+  height: 65%;
+
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  min-width: 350px;
+  min-height: 400px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 10px 0;
+  line-height: 20px;
+  text-rendering: optimizelegibility;
+  color: #8C454C;
+}
+
+#logotipo img{
+  padding: 5px 10px 10px 10px;
+  width: 160px;
+  display: block;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  margin: auto;
+}
+
+#titulo{
+  font-size: 110%;
+  text-align: center;
+  margin: auto;
+}
+
+#form{
+  width: 60%;
+  overflow: hidden;
+  float: none;
+  text-align: center;
+  margin: auto;
+}
+
+input[type="text"]{
+  background: #fff url("img/icons/login1.png") no-repeat;
+}
+
+input[type="password"]{
+  background: #fff url("img/icons/login2.png") no-repeat;
+}
+
+input[type="text"], input[type="password"]{
+  width: 80%;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  
+  margin: 0 0 10px 10px;
+  padding: 15px 10px 15px 40px;
+  
+  font-size: 15px;
+  line-height: 20px;
+  
+  color: #555555;
+  background-color: #ffffff;
+  background-position: 5px 50% !important;
+  background-size: 6%;
+  
+  transition: all 0.5s ease;
+  
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus {
+  box-shadow: 0 0 2px #ed1c24 inset;
+  background-color: #fff;
+  border: 1px solid #ed1c24;
+  outline: none;
+}
+
+
+input[type="submit"] {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  
+  color: #f4f4f4;
+  background: #425D45;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: solid 0 #48724d;
+  border-bottom: 2px solid #425D45;
+  margin: auto;
+}
+
+input[type="submit"]:hover{
+  background-color: #48724d;
+  cursor: pointer;
+}
+
+input[type="submit"]:click{
+  cursor:progress;
+}
+a{
+  text-decoration: none;
+}
+a:link, a:visited {color: #5B4959;}
+a:hover {color: #1A1214;}
+
+
+#mensagemErro {
+  color: #3A3342;
+  font-weight: bold;
+  margin: 5px 5px 5px 5px;
+  font-size: 110%;
+}
+
+@media screen and (max-width: 800px) {
+  #logotipo img {
+    width: 120px;
+  }
+
+  #titulo {
+    visibility: hidden;
+  }  
+}
